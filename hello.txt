@@ -1,0 +1,10 @@
+git add 文件加到暂存区 追踪
+git add . 将当前目录所有修改过的文件暂存
+git rm --cached file.txt 移出暂存区
+git mv 重命名文件
+
+.gitignore文件 规定忽略哪些文件
+  ！取消忽略
+git check-ignore -v file 查看某个文件是否被忽略
+git log 日志
+git commit 默认编辑器编辑提交信息
